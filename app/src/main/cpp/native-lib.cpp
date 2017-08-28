@@ -5,7 +5,7 @@ extern "C"
 JNIEXPORT jstring
 
 JNICALL
-Java_think_reed_tinyplayer_MainActivity_stringFromJNI(
+Java_think_reed_tinyplayer_TinyPlayerEntryActivity_stringFromJNI(
         JNIEnv *env,
         jobject /* this */) {
     std::string hello = "Hello from C++";
