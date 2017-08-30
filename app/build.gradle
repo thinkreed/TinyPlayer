@@ -19,6 +19,11 @@ android {
                 cppFlags "-frtti -fexceptions"
             }
         }
+        ndk {
+            // Specifies the ABI configurations of your native
+            // libraries Gradle should build and package with your APK.
+            abiFilters 'x86', 'armeabi-v7a'
+        }
     }
     buildTypes {
         release {
