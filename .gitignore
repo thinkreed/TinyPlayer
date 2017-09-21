@@ -37,3 +37,4 @@ proguard/
 /.gradle
 /.idea
 *.iml
+*.a
